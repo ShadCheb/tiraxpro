@@ -1,17 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  <head itemscope itemtype="http://schema.org/WPHeader">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta itemprop="headline" content="Tirax.PRO">
+    <meta itemprop="description" name="description" content="Tirax.PRO | Digital-агенство в Чебоксарах" />
+    <meta itemprop="keywords" name="keywords" content="Tirax.PRO Digital-агенство в Чебоксарах" />
+
+    <meta property="og:title" content="Tirax.PRO Digital-агенство в Чебоксарах">
+    <meta property="og:site_name" content="Tirax.PRO Digital-агенство в Чебоксарах">
+    <meta property="og:description" content="Дизайн, разработка, продвижение в Чебоксарах">
+    <meta property="og:image" content="./assets/images/rider-1_m.png">
+
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <title>Tirax.PRO | Digital-агенство в Чебоксарах</title>
   </head>
   <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
     <div id="app"></div>
-    <!-- built files will be auto injected -->
+
+    <script type="text/javascript" src="https://vk.com/js/api/openapi.js?168"></script>
+      <!-- VK Widget -->
+      <div id="vk_community_messages"></div>
+      <script type="text/javascript">
+      VK.Widgets.CommunityMessages("vk_community_messages", 154476999, {expandTimeout: "5000",disableButtonTooltip: "1"});
+    </script>
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+      (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+      m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+      (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+      ym(64748545, "init", {
+          clickmap:true,
+          trackLinks:true,
+          accurateTrackBounce:true,
+          webvisor:true
+      });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/64748545" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
   </body>
 </html>
